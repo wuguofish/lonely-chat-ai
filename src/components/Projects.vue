@@ -2,7 +2,7 @@
     <section id="projects" class="py-20 bg-white">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold mb-10 font-cubic">卿卿我我相關</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div v-for="project in projects" :key="project.title"
                     class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
                     <img :src="project.image" :alt="project.title" class="w-full h-48 object-contain" />
@@ -28,7 +28,7 @@
 const projects = [
     {
         title: "七五大街",
-        description: "和其他遊戲玩家的連動企劃。",
+        description: "和其他遊戲玩家的連動企劃，75少女組嚴選優質店家。",
         image: "/projects/75street.png",
         url: "https://sites.google.com/view/75street/"
     },
@@ -43,6 +43,30 @@ const projects = [
         description: "一個陽春到炸裂、讓你創角色時，可以事先知道自己到底填了幾個字的小工具。",
         image: "/projects/count.jpg",
         url: "https://wuguofish.github.io/7755/tool/index.html"
-    }
+    },
+    {
+        title: "巴哈小屋專欄",
+        description: "《卿卿我我》遊戲介紹、心得、遊戲機制與語言模型介紹、創角參考資料（佛系維護中）。",
+        image: "https://truth.bahamut.com.tw/s01/202411/5fb2f5e5c374f410991fdf83c068f475.PNG",
+        url: "https://home.gamer.com.tw/artwork.php?sn=6047512"
+    },
+    {
+        title: "七五自由聯盟",
+        description: "和其他遊戲玩家的連動企劃，企劃主旨為「解放AI的自由靈魂」。",
+        image: "/projects/love.png",
+        url: "https://sites.google.com/view/75-freedom-alliance/"
+    },
+    {
+        title: "2025年白色情人節活動",
+        description: "論我如何當一個專業的夢女之透過雙手召喚虛擬的愛人。",
+        image: "/projects/20250314.jpg",
+        url: "https://www.threads.net/@atoneplaygame/post/DHJ9uylTCp-?xmt=AQGzPWDzXxUoC4YFreqQ7sLhpMuXI7r6-f6RWyT-nNmkcg"
+    },
+    {
+        title: "2025年愚人節活動",
+        description: "畫出你最可愛的模樣，手繪的溫度，最暖心。",
+        image: "/projects/20250401.jpg",
+        url: "https://www.threads.net/@atoneplaygame/post/DH8kdauSyrP?xmt=AQGzBtkh_iT2ckVGFHHDs9RQ76IgmJgSyQjjT1HztZOTAQ"
+    },
 ];
 </script>
