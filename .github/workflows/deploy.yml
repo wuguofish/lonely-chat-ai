@@ -4,6 +4,10 @@ on:
   push:
     branches: [ main ]  # 當推送到 main 分支時觸發
 
+# 添加權限設置
+permissions:
+  contents: write # 允許寫入內容
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
