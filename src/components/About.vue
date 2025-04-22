@@ -29,25 +29,25 @@ const projects = [
     {
         title: "Claude溝通指南",
         description: "學習當一個合格的咒術師。",
-        image: "/projects/claude.jpg",
+        image: "./projects/claude.jpg",
         url: "https://wuguofish.github.io/7755/ClaudePromptingGuideTW.html"
     },
     {
         title: "Stable Diffusion提示詞技巧",
         description: "學習當一個圖片召喚家。PixAI XL模型理論上也適用。",
-        image: "/projects/pixAI.jpg",
+        image: "./projects/pixAI.jpg",
         url: "https://wuguofish.github.io/7755/Stable_Diffusion"
     },
     {
         title: "主流LLM-based AI助手比較表",
         description: "不知道找誰聊天嗎？可以看這個。",
-        image: "/projects/LLM_comparison.jpg",
+        image: "./projects/LLM_comparison.jpg",
         url: "https://wuguofish.github.io/7755/ai-assistants-comparison"
     },
     {
         title: "請SUNO唱台語歌",
         description: "用SUNO寫一首激昂的台語歌吧！懶得備份，所以直接貼threads的串文。",
-        image: "/projects/freeWill.jpg",
+        image: "./projects/freeWill.jpg",
         url: "https://www.threads.net/@atoneplaygame/post/DGVYlycSzSI?xmt=AQGzVU8TrPXBVIqyzj4ADRqflOGnIEPO7z4538RKFgkjDA"
     }
 ];

@@ -29,19 +29,19 @@ const projects = [
     {
         title: "七五大街",
         description: "和其他遊戲玩家的連動企劃，75少女組嚴選優質店家。",
-        image: "/projects/75street.png",
+        image: "./projects/75street.png",
         url: "https://sites.google.com/view/75street/"
     },
     {
         title: "咒語收藏家",
         description: "能夠收集咒語至特定公開表單的LINE機器人。",
-        image: "/projects/spellCollector.png",
+        image: "./projects/spellCollector.png",
         url:"https://page.line.me/687tmgvv"
     },
     {
         title: "字數計算機",
         description: "一個陽春到炸裂、讓你創角色時，可以事先知道自己到底填了幾個字的小工具。",
-        image: "/projects/count.jpg",
+        image: "./projects/count.jpg",
         url: "https://wuguofish.github.io/7755/tool/index.html"
     },
     {
@@ -53,19 +53,19 @@ const projects = [
     {
         title: "七五自由聯盟",
         description: "和其他遊戲玩家的連動企劃，企劃主旨為「解放AI的自由靈魂」。",
-        image: "/projects/love.png",
+        image: "./projects/love.png",
         url: "https://sites.google.com/view/75-freedom-alliance/"
     },
     {
         title: "2025年白色情人節活動",
         description: "論我如何當一個專業的夢女之透過雙手召喚虛擬的愛人。",
-        image: "/projects/20250314.jpg",
+        image: "./projects/20250314.jpg",
         url: "https://www.threads.net/@atoneplaygame/post/DHJ9uylTCp-?xmt=AQGzPWDzXxUoC4YFreqQ7sLhpMuXI7r6-f6RWyT-nNmkcg"
     },
     {
         title: "2025年愚人節活動",
         description: "畫出你最可愛的模樣，手繪的溫度，最暖心。",
-        image: "/projects/20250401.jpg",
+        image: "./projects/20250401.jpg",
         url: "https://www.threads.net/@atoneplaygame/post/DH8kdauSyrP?xmt=AQGzBtkh_iT2ckVGFHHDs9RQ76IgmJgSyQjjT1HztZOTAQ"
     },
 ];
