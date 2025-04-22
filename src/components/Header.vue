@@ -4,7 +4,8 @@
         <div class="container mx-auto px-4 py-4">
             <div class="flex justify-between items-center max-sm:flex-col max-sm:items-start">
                 <div class="max-sm:flex">
-                    <h1 class="text-xl font-bold flex">> 寂寞的人坐著與AI聊天 _</h1>
+                    <h1 class="text-3xl font-bold flex">> 寂寞的人坐著與AI聊天 <span
+                            class="animate-pulse space-x-3">&nbsp;_</span></h1>
                     <div class="mt-4 hidden text-gray-400 xl:block ">
                         <code>螢幕之光
                             佝僂坐姿

@@ -68,5 +68,11 @@ const projects = [
         image: "./projects/20250401.jpg",
         url: "https://www.threads.net/@atoneplaygame/post/DH8kdauSyrP?xmt=AQGzBtkh_iT2ckVGFHHDs9RQ76IgmJgSyQjjT1HztZOTAQ"
     },
+    {
+        title: "卿卿我我創作者頁面",
+        description: "喜歡寫有生活感的角色，所以點進去看就懂，我家的角色都在這裡了。",
+        image: "./projects/Uni-Q.png",
+        url: "https://abr.ge/ydf2qxu"
+    }
 ];
 </script>

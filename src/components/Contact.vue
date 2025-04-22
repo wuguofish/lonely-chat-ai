@@ -7,7 +7,7 @@
                     <img src="/profile.jpg" alt="個人照片" class="rounded-full w-48 h-48 object-cover mx-auto shadow-lg" />
                 </div>
                 <div class="w-full md:w-2/3">
-                    <h2 class="text-3xl font-bold mb-4">
+                    <h2 class="text-3xl font-bold mb-4 ">
                         {{ name }}
                     </h2>
                     <p class="text-xl mb-4">
@@ -20,8 +20,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class=" mt-10 mb-10 mx-auto">
+            <div class=" mt-10 mx-auto">
                 <div class="flex flex-col sm:flex-row  space-y-4 sm:space-y-0 sm:space-x-6">
                     <h2 class="text-3xl font-bold font-cubic flex-1/2">出沒地點</h2>
                     <div class="grid grid-cols-3 lg:grid-cols-6 gap-2 flex-2/2">

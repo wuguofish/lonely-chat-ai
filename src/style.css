@@ -22,3 +22,6 @@
   font-family: 'Cubic11', sans-serif;
 }
 
+.animate-pulse {
+  animation: pulse 1s infinite;
+}
