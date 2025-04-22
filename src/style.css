@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: oklch(0.72 0.11 178);
+}
+
+/* 註冊俐方體 - 使用多種格式 */
+@font-face {
+  font-family: 'Cubic11';
+  src: url('./assets/fonts/Cubic_11.woff2') format('woff2'),
+    url('./assets/fonts/Cubic_11.woff') format('woff'),
+    url('./assets/fonts/Cubic_11.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-cubic {
+  font-family: 'Cubic11', sans-serif;
+}
+
