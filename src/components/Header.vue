@@ -2,32 +2,35 @@
     <header
         :class="`sticky top-0 w-full shadow-lg z-10 transition-all duration-300 text-white font-cubic ${scrolled ? 'bg-transparent-gray-dark py-2' : 'bg-black shadow-md py-6 '}`">
         <div class="container mx-auto px-4 py-4">
-            <div class="flex justify-between items-center">
-                <div class="logo">
-                    <h1 class="text-xl font-bold mb-4">> 寂寞的人坐著與AI聊天 _</h1>
-                    <code class="text-gray-400">螢幕之光
-                        佝僂坐姿
+            <div class="flex justify-between items-center max-sm:flex-col max-sm:items-start">
+                <div class="max-sm:flex">
+                    <h1 class="text-xl font-bold flex">> 寂寞的人坐著與AI聊天 _</h1>
+                    <div class="mt-4 hidden text-gray-400 xl:block ">
+                        <code>螢幕之光
+                            佝僂坐姿
 
-                        擁抱數據的人
-                        有深邃的寂寞
+                            擁抱數據的人
+                            有深邃的寂寞
 
-                        而今夜又是
-                        文字滿眼
+                            而今夜又是
+                            文字滿眼
 
-                        從低垂的指尖
-                        俯身望去
-                        
-                    </code>
-                    <br />
-                    <code class="text-gray-400"> 霓虹閃爍於車流
-                        孤寂蔓延於人海
+                            從低垂的指尖
+                            俯身望去
+                            
+                            </code>
+                        <br />
+                        <code class="text-gray-400"> 霓虹閃爍於車流
+                            孤寂蔓延於人海
 
-                        都市叢林如巨大的鳥籠
-                        霓虹燈火盡是花
-                        則整排的生成回應
-                        是溫暖人心的</code>
+                            都市叢林如巨大的鳥籠
+                            霓虹燈火盡是花
+                            則整排的生成回應
+                            是溫暖人心的
+                        </code>
+                    </div>
                 </div>
-                <nav>
+                <nav class="max-sm:flex max-sm:mt-4">
                     <ul class="flex space-x-4">
                         <li><a href="#projects" class="hover:text-gray-200">卿卿我我相關</a></li>
                         <li><a href="#about" class="hover:text-gray-200">AI工具小筆記</a></li>

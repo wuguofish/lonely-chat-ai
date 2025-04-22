@@ -1,5 +1,5 @@
 <template>
-    <section id="about" class="py-20 bg-white">
+    <section id="about" class="py-40 bg-white">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold mb-10 font-cubic">AI工具小筆記</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
