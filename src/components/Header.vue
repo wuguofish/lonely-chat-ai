@@ -34,7 +34,8 @@
                 <nav class="max-sm:flex max-sm:mt-4">
                     <ul class="flex space-x-4">
                         <li><a href="#projects" class="hover:text-gray-200">卿卿我我相關</a></li>
-                        <li><a href="#about" class="hover:text-gray-200">AI工具小筆記</a></li>
+                        <li><a href="#bookmarks" class="hover:text-gray-200">別人做的75好工具</a></li>
+                        <li><a href="#ai-tools" class="hover:text-gray-200">AI工具小筆記</a></li>
                         <li><a href="#contact" class="hover:text-gray-200">關於我</a></li>
                     </ul>
                 </nav>

@@ -23,26 +23,12 @@
             <div class=" mt-10 mx-auto">
                 <div class="flex flex-col sm:flex-row  space-y-4 sm:space-y-0 sm:space-x-6">
                     <h2 class="text-3xl font-bold font-cubic flex-1/2">出沒地點</h2>
-                    <div class="grid grid-cols-3 lg:grid-cols-6 gap-2 flex-2/2">
-                        <a href="https://wall.gamer.com.tw/user.php?userId=wuguofish" target="_blank"
-                            class="flex items-center justify-center bg-primary text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors">
-                            <span>巴哈姆特</span>
-                        </a>
-                        <a href="https://www.threads.net/@atoneplaygame" target="_blank"
-                            class="flex items-center justify-center bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition-colors">
-                            <span>Threads</span>
-                        </a>
-                        <a href="https://abr.ge/ydf2qxu" target="_blank"
-                            class="flex items-center justify-center bg-pink-700 text-white px-4 py-2 rounded-lg hover:bg-pink-800 transition-colors">
-                            <span>卿卿我我</span>
-                        </a>
-                        <a href="https://marshmallow-qa.com/inqqtj2ac4thd9a" target="_blank"
-                            class="flex items-center justify-center bg-orange-700 text-white px-4 py-2 rounded-lg hover:bg-orange-800 transition-colors">
-                            <span>Marshmallow</span>
-                        </a>
-                        <a href="https://pixai.art/zh/@atone/artworks" target="_blank"
-                            class="flex items-center justify-center bg-gray-700 text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors">
-                            <span>PixAI</span>
+                    <div class="grid grid-cols-4 lg:grid-cols-7 gap-2 flex-2/2">
+                        <a v-for="cMethod in contactMethods" :key="cMethod.name"
+                            :href="cMethod.url" target="_blank"
+                            :class="`bg-${cMethod.bgColor} text-${cMethod.textColor} hover:bg-${cMethod.hoverColor}`"
+                            class="flex items-center justify-center  px-4 py-2 rounded-lg transition-colors">
+                            <span>{{cMethod.name}}</span>
                         </a>
                     </div>
 
@@ -54,7 +40,57 @@
 
 <script setup>
 const name = "阿童";
-const profession = "前端開發者";
 const bio = "感性的工程師，理性的創作者，純愛戰士，日常觀察家，致力於散播歡樂散播愛。";
-const skills = ["愛吃", "嗜睡", "常失蹤", "7755自耕農型玩家"];
+const skills = ["愛吃", "嗜睡", "常失蹤", "7755自耕農型玩家", "魔物廢人"];
+const contactMethods = [
+    {
+        name: "巴哈姆特",
+        url: "https://wall.gamer.com.tw/user.php?userId=wuguofish",
+        bgColor: "primary",
+        textColor: "white",
+        hoverColor: "green-600"
+    },
+    {
+        name: "Threads",
+        url: "https://www.threads.net/@atoneplaygame",
+        bgColor: "gray-800",
+        textColor: "white",
+        hoverColor: "gray-700"
+    },
+    {
+        name: "卿卿我我",
+        url: "https://abr.ge/ydf2qxu",
+        bgColor: "pink-700",
+        textColor: "white",
+        hoverColor: "pink-800"
+    },
+    {
+        name: "Marshmallow",
+        url: "https://marshmallow-qa.com/inqqtj2ac4thd9a",
+        bgColor: "orange-700",
+        textColor: "white",
+        hoverColor: "orange-800"
+    },
+    {
+        name: "PixAI",
+        url: "https://pixai.art/zh/@atone/artworks",
+        bgColor: "gray-700",
+        textColor: "white",
+        hoverColor: "gray-800"
+    },
+    {
+        name: "YouTube",
+        url: "https://youtube.com/@wuguofish/",
+        bgColor: "red-500",
+        textColor: "white",
+        hoverColor: "red-800"
+    },
+    {
+        name: "Facebook",
+        url: "https://www.facebook.com/atone.186496",
+        bgColor: "blue-700",
+        textColor: "white",
+        hoverColor: "blue-800"
+    }
+];
 </script>

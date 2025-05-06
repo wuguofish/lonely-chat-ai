@@ -3,7 +3,8 @@
     <Header />
     <main class="">
       <Projects />
-      <About />
+      <Bookmarks />
+      <AiTools />
       <Contact />
     </main>
     <Footer />
@@ -12,7 +13,8 @@
 
 <script setup>
 import Header from './components/Header.vue'
-import About from './components/About.vue'
+import AiTools from './components/AiTools.vue'
+import Bookmarks from './components/Bookmarks.vue'
 import Projects from './components/Projects.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'

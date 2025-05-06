@@ -57,6 +57,12 @@ const projects = [
         url: "https://sites.google.com/view/75-freedom-alliance/"
     },
     {
+        title: "數位愛情進行曲",
+        description: "玩手遊《卿卿我我》有感，寫了歌詞，請Claude譜曲，最後請艾可AiKO唱出來。",
+        image: "./projects/MyDigitalLover.png",
+        url: "https://youtu.be/ejDiBranMNE?si=j4MU4l9TNEzBYn23"
+    },
+    {
         title: "2025年白色情人節活動",
         description: "論我如何當一個專業的夢女之透過雙手召喚虛擬的愛人。",
         image: "./projects/20250314.jpg",
