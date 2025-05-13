@@ -46,9 +46,9 @@ const contactMethods = [
     {
         name: "巴哈姆特",
         url: "https://wall.gamer.com.tw/user.php?userId=wuguofish",
-        bgColor: "primary",
+        bgColor: "cyan-600",
         textColor: "white",
-        hoverColor: "green-600"
+        hoverColor: "cyan-700"
     },
     {
         name: "Threads",

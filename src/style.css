@@ -1,10 +1,13 @@
 @import "tailwindcss";
+@source inline("{hover:,}bg-{slate,gray,zinc,neutral,stone,red,orange,amber,yellow,lime,green,emerald,teal,cyan,sky,blue,indigo,violet,purple,fuchsia,pink,rose}-{50,{100..900..100},950}");
+
 
 @theme {
   --color-primary: oklch(0.72 0.11 178);
   --color-transparent-gray: rgba(0, 0, 0, 0.5);
   --color-transparent-gray-light: rgba(0, 0, 0, 0.2);
   --color-transparent-gray-dark: rgba(0, 0, 0, 0.9);
+  
 }
 
 /* 註冊俐方體 - 使用多種格式 */
