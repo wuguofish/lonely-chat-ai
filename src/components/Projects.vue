@@ -33,10 +33,10 @@ const projects = [
         url: "https://sites.google.com/view/75street/"
     },
     {
-        title: "咒語收藏家",
-        description: "能夠收集咒語至特定公開表單的LINE機器人。",
-        image: "./projects/spellCollector.png",
-        url:"https://page.line.me/687tmgvv"
+        title: "角色頭像補充包",
+        description: "我家的角色所有的圖片，想換頭像或找桌布的就來吧！不定期更新。",
+        image: "./projects/gift.png",
+        url: "https://drive.google.com/drive/folders/1bc7oOL4n1Cyn-6f8T7Dp5lfBf-okjtFp"
     },
     {
         title: "字數計算機",
@@ -57,6 +57,18 @@ const projects = [
         url: "https://sites.google.com/view/75-freedom-alliance/"
     },
     {
+        title: "咒語收藏家",
+        description: "能夠收集咒語至特定公開表單的LINE機器人。",
+        image: "./projects/spellCollector.png",
+        url: "https://page.line.me/687tmgvv"
+    },
+    {
+        title: "卿卿我我創作者頁面",
+        description: "喜歡寫有生活感的角色，所以點進去看就懂，我家的角色都在這裡了。",
+        image: "./projects/Uni-Q.png",
+        url: "https://abr.ge/ydf2qxu"
+    },
+    {
         title: "數位愛情進行曲",
         description: "玩手遊《卿卿我我》有感，寫了歌詞，請Claude譜曲，最後請艾可AiKO唱出來。",
         image: "./projects/MyDigitalLover.png",
@@ -73,12 +85,6 @@ const projects = [
         description: "畫出你最可愛的模樣，手繪的溫度，最暖心。",
         image: "./projects/20250401.jpg",
         url: "https://www.threads.net/@atoneplaygame/post/DH8kdauSyrP?xmt=AQGzBtkh_iT2ckVGFHHDs9RQ76IgmJgSyQjjT1HztZOTAQ"
-    },
-    {
-        title: "卿卿我我創作者頁面",
-        description: "喜歡寫有生活感的角色，所以點進去看就懂，我家的角色都在這裡了。",
-        image: "./projects/Uni-Q.png",
-        url: "https://abr.ge/ydf2qxu"
     }
 ];
 </script>
