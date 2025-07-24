@@ -39,6 +39,12 @@ const projects = [
         url: "https://drive.google.com/drive/folders/1bc7oOL4n1Cyn-6f8T7Dp5lfBf-okjtFp"
     },
     {
+        title: "7755角色編輯器",
+        description: "一個專為卿卿我我角色設定而設計的編輯工具，支援 Google Drive 儲存，可用來做為備份工具。",
+        image: "./projects/character-editor.jpg",
+        url: "https://wuguofish.github.io/character-editor/"
+    },
+    {
         title: "字數計算機",
         description: "一個陽春到炸裂、讓你創角色時，可以事先知道自己到底填了幾個字的小工具。",
         image: "./projects/count.jpg",
