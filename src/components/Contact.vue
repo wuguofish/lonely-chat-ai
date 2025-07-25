@@ -23,7 +23,7 @@
             <div class=" mt-10 mx-auto">
                 <div class="flex flex-col sm:flex-row  space-y-4 sm:space-y-0 sm:space-x-6">
                     <h2 class="text-3xl font-bold font-cubic flex-1/2">出沒地點</h2>
-                    <div class="grid grid-cols-3 lg:grid-cols-7 gap-2 flex-2/2">
+                    <div class="grid grid-cols-3 lg:grid-cols-5 gap-2 flex-2/2">
                         <a v-for="cMethod in contactMethods" :key="cMethod.name"
                             :href="cMethod.url" target="_blank"
                             :class="`bg-${cMethod.bgColor} text-${cMethod.textColor} hover:bg-${cMethod.hoverColor}`"
@@ -54,6 +54,13 @@ const contactMethods = [
         name: "Threads",
         url: "https://www.threads.net/@atoneplaygame",
         bgColor: "gray-800",
+        textColor: "white",
+        hoverColor: "gray-700"
+    },
+    {
+        name: "Discord",
+        url: "https://discord.gg/hmu9jtZJ",
+        bgColor: "indigo-600",
         textColor: "white",
         hoverColor: "gray-700"
     },
