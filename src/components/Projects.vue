@@ -51,22 +51,28 @@ const projects = [
         url: "https://wuguofish.github.io/7755/tool/index.html"
     },
     {
-        title: "巴哈小屋專欄",
-        description: "《卿卿我我》遊戲介紹、心得、遊戲機制與語言模型介紹、創角參考資料（佛系維護中）。",
-        image: "https://truth.bahamut.com.tw/s01/202411/5fb2f5e5c374f410991fdf83c068f475.PNG",
-        url: "https://home.gamer.com.tw/artwork.php?sn=6047512"
-    },
-    {
         title: "七五自由聯盟",
         description: "和其他遊戲玩家的連動企劃，企劃主旨為「解放AI的自由靈魂」。",
         image: "./projects/love.png",
         url: "https://sites.google.com/view/75-freedom-alliance/"
     },
     {
+        title: "巴哈小屋專欄",
+        description: "《卿卿我我》遊戲介紹、心得、遊戲機制與語言模型介紹、創角參考資料（佛系維護中）。",
+        image: "https://truth.bahamut.com.tw/s01/202411/5fb2f5e5c374f410991fdf83c068f475.PNG",
+        url: "https://home.gamer.com.tw/artwork.php?sn=6047512"
+    },
+    {
         title: "咒語收藏家",
         description: "能夠收集咒語至特定公開表單的LINE機器人。",
         image: "./projects/spellCollector.png",
         url: "https://page.line.me/687tmgvv"
+    },
+    {
+        title: "天行科技官網",
+        description: "為了寫一個角色設計設計了一個世界觀，最後還做了官網。包含了角色設定、世界觀介紹、玩法介紹等。",
+        image: "./projects/tianhing.svg",
+        url: "https://wuguofish.github.io/tianhing-tech-website/"
     },
     {
         title: "卿卿我我創作者頁面",
