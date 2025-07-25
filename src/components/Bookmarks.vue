@@ -16,7 +16,7 @@
                             </a>
                         </div>
                         <div class="flex text-l mb-4 text-center font-cubic">
-                            <a :href="project.sourc" target="_blank"
+                            <a :href="project.source" target="_blank"
                                 class="bg-white text-black px-3 py-1 rounded hover:bg-gray-300 w-full border-2 border-gray-800">
                                 來源與說明
                             </a>
