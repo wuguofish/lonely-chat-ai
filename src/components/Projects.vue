@@ -63,12 +63,6 @@ const projects = [
         url: "https://home.gamer.com.tw/artwork.php?sn=6047512"
     },
     {
-        title: "咒語收藏家",
-        description: "能夠收集咒語至特定公開表單的LINE機器人。",
-        image: "./projects/spellCollector.png",
-        url: "https://page.line.me/687tmgvv"
-    },
-    {
         title: "天行科技官網",
         description: "為了寫一個角色設計設計了一個世界觀，最後還做了官網。包含了角色設定、世界觀介紹、玩法介紹等。",
         image: "./projects/tianhing.svg",

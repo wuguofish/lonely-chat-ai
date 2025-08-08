@@ -58,46 +58,11 @@ const contactMethods = [
         hoverColor: "gray-700"
     },
     {
-        name: "Discord",
-        url: "https://discord.gg/hmu9jtZJ",
-        bgColor: "indigo-600",
-        textColor: "white",
-        hoverColor: "gray-700"
-    },
-    {
         name: "卿卿我我",
         url: "https://abr.ge/ydf2qxu",
         bgColor: "pink-700",
         textColor: "white",
         hoverColor: "pink-800"
-    },
-    {
-        name: "Marshmallow",
-        url: "https://marshmallow-qa.com/inqqtj2ac4thd9a",
-        bgColor: "orange-700",
-        textColor: "white",
-        hoverColor: "orange-800"
-    },
-    {
-        name: "PixAI",
-        url: "https://pixai.art/zh/@atone/artworks",
-        bgColor: "gray-700",
-        textColor: "white",
-        hoverColor: "gray-800"
-    },
-    {
-        name: "YouTube",
-        url: "https://youtube.com/@wuguofish/",
-        bgColor: "red-500",
-        textColor: "white",
-        hoverColor: "red-800"
-    },
-    {
-        name: "Facebook",
-        url: "https://www.facebook.com/atone.186496",
-        bgColor: "blue-700",
-        textColor: "white",
-        hoverColor: "blue-800"
-    }
+    }      
 ];
 </script>
