@@ -41,7 +41,7 @@
 <script setup>
 const name = "阿童";
 const bio = "感性的工程師，理性的創作者，純愛戰士，日常觀察家，致力於散播歡樂散播愛。";
-const skills = ["愛吃", "嗜睡", "常失蹤", "7755自耕農型玩家", "魔物廢人"];
+const skills = ["愛吃", "嗜睡", "常失蹤", "自耕農型玩家", "魔物廢人", "已退圈不退遊"];
 const contactMethods = [
     {
         name: "巴哈姆特",
@@ -49,6 +49,13 @@ const contactMethods = [
         bgColor: "cyan-600",
         textColor: "white",
         hoverColor: "cyan-700"
+    },
+    {
+        name: "Discord",
+        url: "https://www.notion.so/24bdd71adc5780ab952edf15d56fa489",
+        bgColor: "indigo-600",
+        textColor: "white",
+        hoverColor: "gray-700"
     },
     {
         name: "Threads",
@@ -62,7 +69,7 @@ const contactMethods = [
         url: "https://abr.ge/ydf2qxu",
         bgColor: "pink-700",
         textColor: "white",
-        hoverColor: "pink-800"
+        hoverColor: "pink-800",
     }      
 ];
 </script>
