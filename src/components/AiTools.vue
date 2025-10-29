@@ -27,17 +27,29 @@
 <script setup>
 const projects = [
     {
-        title: "Claude溝通指南",
-        description: "學習當一個合格的咒術師。",
-        image: "./projects/claude.jpg",
-        url: "https://wuguofish.github.io/7755/ClaudePromptingGuideTW.html"
-    },
-    {
         title: "Stable Diffusion提示詞技巧",
         description: "學習當一個圖片召喚家。PixAI XL模型理論上也適用。",
         image: "./projects/pixAI.jpg",
         url: "https://wuguofish.github.io/7755/Stable_Diffusion"
     },
+    {
+        title: "關於LoRA",
+        description: "簡單的說明LoRA是什麼並分享PixAI上訓練LoRA的小心得。",
+        image: "./projects/pixAI.jpg",
+        url: "https://wuguofish.github.io/7755/AboutLoRA"
+    },
+    {
+        title: "DMD2方法的核心優勢",
+        description: "DMD2是一種能讓擴散模型所需降噪步數大幅減少的方法，白話來說就是省錢省時間。",
+        image: "./projects/pixAI.jpg",
+        url: "https://wuguofish.github.io/7755/AboutLoRA"
+    },
+    {
+        title: "Claude溝通指南",
+        description: "學習當一個合格的咒術師。",
+        image: "./projects/claude.jpg",
+        url: "https://wuguofish.github.io/7755/ClaudePromptingGuideTW.html"
+    },    
     {
         title: "主流LLM-based AI助手比較表",
         description: "不知道找誰聊天嗎？可以看這個。",
