@@ -55,12 +55,6 @@ const projects = [
         description: "不知道找誰聊天嗎？可以看這個。",
         image: "./projects/LLM_comparison.jpg",
         url: "https://wuguofish.github.io/7755/ai-assistants-comparison"
-    },
-    {
-        title: "請SUNO唱台語歌",
-        description: "用SUNO寫一首激昂的台語歌吧！懶得備份，所以直接貼threads的串文。",
-        image: "./projects/freeWill.jpg",
-        url: "https://www.threads.net/@atoneplaygame/post/DGVYlycSzSI?xmt=AQGzVU8TrPXBVIqyzj4ADRqflOGnIEPO7z4538RKFgkjDA"
     }
 ];
 </script>

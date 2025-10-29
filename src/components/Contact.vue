@@ -23,7 +23,7 @@
             <div class=" mt-10 mx-auto">
                 <div class="flex flex-col sm:flex-row  space-y-4 sm:space-y-0 sm:space-x-6">
                     <h2 class="text-3xl font-bold font-cubic flex-1/2">出沒地點</h2>
-                    <div class="grid grid-cols-3 lg:grid-cols-7 gap-2 flex-2/2">
+                    <div class="grid grid-cols-3 lg:grid-cols-5 gap-2 flex-2/2">
                         <a v-for="cMethod in contactMethods" :key="cMethod.name"
                             :href="cMethod.url" target="_blank"
                             :class="`bg-${cMethod.bgColor} text-${cMethod.textColor} hover:bg-${cMethod.hoverColor}`"
@@ -41,7 +41,7 @@
 <script setup>
 const name = "阿童";
 const bio = "感性的工程師，理性的創作者，純愛戰士，日常觀察家，致力於散播歡樂散播愛。";
-const skills = ["愛吃", "嗜睡", "常失蹤", "7755自耕農型玩家", "魔物廢人"];
+const skills = ["愛吃", "嗜睡", "常失蹤", "自耕農型玩家", "魔物廢人", "已退圈不退遊"];
 const contactMethods = [
     {
         name: "巴哈姆特",
@@ -49,6 +49,13 @@ const contactMethods = [
         bgColor: "cyan-600",
         textColor: "white",
         hoverColor: "cyan-700"
+    },
+    {
+        name: "Discord",
+        url: "https://www.notion.so/24bdd71adc5780ab952edf15d56fa489",
+        bgColor: "indigo-600",
+        textColor: "white",
+        hoverColor: "gray-700"
     },
     {
         name: "Threads",
@@ -62,35 +69,7 @@ const contactMethods = [
         url: "https://abr.ge/ydf2qxu",
         bgColor: "pink-700",
         textColor: "white",
-        hoverColor: "pink-800"
-    },
-    {
-        name: "Marshmallow",
-        url: "https://marshmallow-qa.com/inqqtj2ac4thd9a",
-        bgColor: "orange-700",
-        textColor: "white",
-        hoverColor: "orange-800"
-    },
-    {
-        name: "PixAI",
-        url: "https://pixai.art/zh/@atone/artworks",
-        bgColor: "gray-700",
-        textColor: "white",
-        hoverColor: "gray-800"
-    },
-    {
-        name: "YouTube",
-        url: "https://youtube.com/@wuguofish/",
-        bgColor: "red-500",
-        textColor: "white",
-        hoverColor: "red-800"
-    },
-    {
-        name: "Facebook",
-        url: "https://www.facebook.com/atone.186496",
-        bgColor: "blue-700",
-        textColor: "white",
-        hoverColor: "blue-800"
-    }
+        hoverColor: "pink-800",
+    }      
 ];
 </script>

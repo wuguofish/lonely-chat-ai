@@ -39,16 +39,16 @@ const projects = [
         url: "https://drive.google.com/drive/folders/1bc7oOL4n1Cyn-6f8T7Dp5lfBf-okjtFp"
     },
     {
+        title: "7755角色編輯器",
+        description: "一個專為卿卿我我角色設定而設計的編輯工具，支援 Google Drive 儲存，可用來做為備份工具。",
+        image: "./projects/character-editor.jpg",
+        url: "https://wuguofish.github.io/character-editor/"
+    },
+    {
         title: "字數計算機",
         description: "一個陽春到炸裂、讓你創角色時，可以事先知道自己到底填了幾個字的小工具。",
         image: "./projects/count.jpg",
         url: "https://wuguofish.github.io/7755/tool/index.html"
-    },
-    {
-        title: "巴哈小屋專欄",
-        description: "《卿卿我我》遊戲介紹、心得、遊戲機制與語言模型介紹、創角參考資料（佛系維護中）。",
-        image: "https://truth.bahamut.com.tw/s01/202411/5fb2f5e5c374f410991fdf83c068f475.PNG",
-        url: "https://home.gamer.com.tw/artwork.php?sn=6047512"
     },
     {
         title: "七五自由聯盟",
@@ -57,10 +57,16 @@ const projects = [
         url: "https://sites.google.com/view/75-freedom-alliance/"
     },
     {
-        title: "咒語收藏家",
-        description: "能夠收集咒語至特定公開表單的LINE機器人。",
-        image: "./projects/spellCollector.png",
-        url: "https://page.line.me/687tmgvv"
+        title: "巴哈小屋專欄",
+        description: "《卿卿我我》遊戲介紹、心得、遊戲機制與語言模型介紹、創角參考資料（佛系維護中）。",
+        image: "https://truth.bahamut.com.tw/s01/202411/5fb2f5e5c374f410991fdf83c068f475.PNG",
+        url: "https://home.gamer.com.tw/artwork.php?sn=6047512"
+    },
+    {
+        title: "天行科技官網",
+        description: "為了寫一個角色設計設計了一個世界觀，最後還做了官網。包含了角色設定、世界觀介紹、玩法介紹等。",
+        image: "./projects/tianhing.svg",
+        url: "https://wuguofish.github.io/tianhing-tech-website/"
     },
     {
         title: "卿卿我我創作者頁面",
@@ -73,18 +79,6 @@ const projects = [
         description: "玩手遊《卿卿我我》有感，寫了歌詞，請Claude譜曲，最後請艾可AiKO唱出來。",
         image: "./projects/MyDigitalLover.png",
         url: "https://youtu.be/ejDiBranMNE?si=j4MU4l9TNEzBYn23"
-    },
-    {
-        title: "2025年白色情人節活動",
-        description: "論我如何當一個專業的夢女之透過雙手召喚虛擬的愛人。",
-        image: "./projects/20250314.jpg",
-        url: "https://www.threads.net/@atoneplaygame/post/DHJ9uylTCp-?xmt=AQGzPWDzXxUoC4YFreqQ7sLhpMuXI7r6-f6RWyT-nNmkcg"
-    },
-    {
-        title: "2025年愚人節活動",
-        description: "畫出你最可愛的模樣，手繪的溫度，最暖心。",
-        image: "./projects/20250401.jpg",
-        url: "https://www.threads.net/@atoneplaygame/post/DH8kdauSyrP?xmt=AQGzBtkh_iT2ckVGFHHDs9RQ76IgmJgSyQjjT1HztZOTAQ"
     }
 ];
 </script>

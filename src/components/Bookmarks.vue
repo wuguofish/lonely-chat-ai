@@ -16,7 +16,7 @@
                             </a>
                         </div>
                         <div class="flex text-l mb-4 text-center font-cubic">
-                            <a :href="project.sourc" target="_blank"
+                            <a :href="project.source" target="_blank"
                                 class="bg-white text-black px-3 py-1 rounded hover:bg-gray-300 w-full border-2 border-gray-800">
                                 來源與說明
                             </a>
@@ -41,7 +41,7 @@ const projects = [
         url: "https://loveydovey-chat-converter.vercel.app/"
     },
     {
-        title: "角色設定備份模板",
+        title: "角色備份模板",
         description: "卿卿我我角色設定notion模板，方便大家製作、收藏、搜尋自家角色。",
         source: "https://www.plurk.com/p/3gju9gfqbi",
         url: "https://plausible-nephew-b4a.notion.site/16fadc11297c80ca9e5ae4fb3762434a"
