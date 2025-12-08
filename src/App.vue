@@ -2,9 +2,9 @@
   <div class="min-h-screen">
     <Header />
     <main class="">
+      <AiTools />
       <Projects />
       <Bookmarks />
-      <AiTools />
       <Contact />
     </main>
     <Footer />
