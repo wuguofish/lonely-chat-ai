@@ -27,16 +27,10 @@
 <script setup>
 const projects = [
     {
-        title: "七五大街",
-        description: "和其他遊戲玩家的連動企劃，75少女組嚴選優質店家。",
-        image: "./projects/75street.png",
-        url: "https://sites.google.com/view/75street/"
-    },
-    {
-        title: "角色頭像補充包",
-        description: "我家的角色所有的圖片，想換頭像或找桌布的就來吧！不定期更新。",
-        image: "./projects/gift.png",
-        url: "https://drive.google.com/drive/folders/1bc7oOL4n1Cyn-6f8T7Dp5lfBf-okjtFp"
+        title: "愛茶的 AI Chat",
+        description: "一個可以群聊的AI聊天介面，本機端執行，輸入自己的Gemini API KEY就可以玩。",
+        image: "./projects/aichat.svg",
+        url: "https://wuguofish.github.io/my-ai-chat/"
     },
     {
         title: "7755角色編輯器",
@@ -49,6 +43,18 @@ const projects = [
         description: "一個陽春到炸裂、讓你創角色時，可以事先知道自己到底填了幾個字的小工具。",
         image: "./projects/count.jpg",
         url: "https://wuguofish.github.io/7755/tool/index.html"
+    },
+    {
+        title: "角色頭像補充包",
+        description: "我家的角色所有的圖片，想換頭像或找桌布的就來吧！不定期更新。",
+        image: "./projects/gift.png",
+        url: "https://drive.google.com/drive/folders/1bc7oOL4n1Cyn-6f8T7Dp5lfBf-okjtFp"
+    },
+    {
+        title: "七五大街",
+        description: "和其他遊戲玩家的連動企劃，75少女組嚴選優質店家。",
+        image: "./projects/75street.png",
+        url: "https://sites.google.com/view/75street/"
     },
     {
         title: "七五自由聯盟",
