@@ -27,22 +27,10 @@
 <script setup>
 const projects = [
     {
-        title: "Stable Diffusion提示詞技巧",
-        description: "學習當一個圖片召喚家。PixAI XL模型理論上也適用。",
+        title: "PixAI SDXL Prompt 實戰指南",
+        description: "學習當一個圖片召喚家，針對PixAI XL模型的使用心得分享。",
         image: "./projects/pixAI.jpg",
-        url: "https://wuguofish.github.io/7755/Stable_Diffusion"
-    },
-    {
-        title: "關於LoRA",
-        description: "簡單的說明LoRA是什麼並分享PixAI上訓練LoRA的小心得。",
-        image: "./projects/pixAI.jpg",
-        url: "https://wuguofish.github.io/7755/AboutLoRA"
-    },
-    {
-        title: "DMD2方法的核心優勢",
-        description: "DMD2是一種能讓擴散模型所需降噪步數大幅減少的方法，白話來說就是省錢省時間。",
-        image: "./projects/pixAI.jpg",
-        url: "https://wuguofish.github.io/7755/AboutLoRA"
+        url: "https://wuguofish.github.io/sd-prompt-guide-docs/"
     },
     {
         title: "Claude溝通指南",
