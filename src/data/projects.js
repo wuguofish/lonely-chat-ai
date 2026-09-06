@@ -102,7 +102,7 @@ export const sideProjectGroups = [
     projects: [
       {
         title: "switchboard",
-        description: "讓多個 Claude Code session 彼此傳訊、廣播、互相喚醒的總機，一支 AI 團隊的神經系統。",
+        description: "讓多個 Claude Code session 彼此傳訊、廣播、互相喚醒的總機，一支 AI 團隊的神經系統。現在 Codex 和 OpenCode 也能接上來，不同家的 AI 直接互打電話。",
         image: "./projects/switchboard.jpg",
         url: "https://github.com/wuguofish/Switchboard"
       },
