@@ -1,14 +1,14 @@
 @import "tailwindcss";
 @import "@vp-tw/cjk-web-fonts-taipei-sans-tc/dist/Regular/Taipei-Sans-TC.css";
 
-/* 淺色是「巧克力薄荷」：香草紙、可可色塊、薄荷點綴；深色是「薄荷巧克力」：巧克力紙、薄荷色塊、奶油字 */
+/* 淺色是「巧克力薄荷」：香草紙、可可頁首、薄荷按鈕；深色是「薄荷巧克力」：巧克力紙、薄荷色塊、奶油字 */
 :root {
   --paper: #FBF7EE;
   --paper-2: #F3ECDC;
   --ink: #26211B;
   --ink-2: #6A6157;
   --line: #E0D6C3;
-  --block: #4A2C24;
+  --block: #1F7A63;
   --on-block: #F6EFE3;
   --accent: #1F7A63;
   --mint: #1F7A63;
