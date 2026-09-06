@@ -3,33 +3,6 @@
 
 export const sideProjectGroups = [
   {
-    id: "agent-tools",
-    title: "AI Agent 工具",
-    blurb: "當一個 AI 不夠，就讓一群 AI 一起工作。",
-    projects: [
-      {
-        title: "switchboard",
-        description: "讓多個 Claude Code session 彼此傳訊、廣播、互相喚醒的總機，一支 AI 團隊的神經系統。",
-        image: "./projects/switchboard.jpg",
-        url: "https://github.com/wuguofish/Switchboard"
-      },
-      {
-        title: "MCP 工具群",
-        description: "讓 AI 能發 LINE、直接跟別家 AI 對話、自己生圖。",
-        links: [
-          { label: "line-gateway", url: "https://github.com/wuguofish/line-gateway" },
-          { label: "codex-bridge", url: "https://github.com/wuguofish/codex-bridge" },
-          { label: "pixai-mcp", url: "https://github.com/wuguofish/pixai-mcp" }
-        ]
-      },
-      {
-        title: "tsunu-superpowers",
-        description: "給 AI 的一套工作方法論 skill：釐清需求、計畫、驗證、排查，讓 AI 知道怎麼把事做穩。",
-        url: "https://github.com/Tsun-u/tsunu-superpowers"
-      }
-    ]
-  },
-  {
     id: "apps-guides",
     title: "應用與指南",
     blurb: "工作上真的用得到的工具，和整理下來的心得。",
@@ -53,6 +26,7 @@ export const sideProjectGroups = [
       }
     ]
   },
+
   {
     id: "games",
     title: "遊戲",
@@ -96,6 +70,59 @@ export const sideProjectGroups = [
       }
     ]
   },
+
+  {
+    id: "play-together",
+    title: "人類與 AI 同樂",
+    blurb: "不是工具，是一起玩的地方。",
+    projects: [
+      {
+        title: "agent-game-table",
+        description: "人類和 AI 共桌打牌的牌桌，AI 用 MCP 接上就能入座：大老二、橋牌、撿紅點、排七。",
+        url: "https://github.com/Tsun-u/agent-game-table"
+      },
+      {
+        title: "愛茶的 AI Chat",
+        description: "在瀏覽器裡跑的 AI 角色扮演聊天平台。資料全在本機，支援 Google 雲端硬碟存檔與 PNG 隱寫的角色卡。",
+        image: "./projects/my-ai-chat.jpg",
+        fit: "contain",
+        url: "https://wuguofish.github.io/my-ai-chat/",
+        links: [
+          { label: "打開", url: "https://wuguofish.github.io/my-ai-chat/" },
+          { label: "GitHub", url: "https://github.com/wuguofish/my-ai-chat" }
+        ]
+      }
+    ]
+  },
+
+  {
+    id: "agent-tools",
+    title: "AI Agent 工具",
+    blurb: "當一個 AI 不夠，就讓一群 AI 一起工作。",
+    projects: [
+      {
+        title: "switchboard",
+        description: "讓多個 Claude Code session 彼此傳訊、廣播、互相喚醒的總機，一支 AI 團隊的神經系統。",
+        image: "./projects/switchboard.jpg",
+        url: "https://github.com/wuguofish/Switchboard"
+      },
+      {
+        title: "MCP 工具群",
+        description: "讓 AI 能發 LINE、直接跟別家 AI 對話、自己生圖。",
+        links: [
+          { label: "line-gateway", url: "https://github.com/wuguofish/line-gateway" },
+          { label: "codex-bridge", url: "https://github.com/wuguofish/codex-bridge" },
+          { label: "pixai-mcp", url: "https://github.com/wuguofish/pixai-mcp" }
+        ]
+      },
+      {
+        title: "tsunu-superpowers",
+        description: "給 AI 的一套工作方法論 skill：釐清需求、計畫、驗證、排查，讓 AI 知道怎麼把事做穩。",
+        url: "https://github.com/Tsun-u/tsunu-superpowers"
+      }
+    ]
+  },
+
   {
     id: "companions",
     title: "AI 夥伴",
@@ -124,29 +151,6 @@ export const sideProjectGroups = [
         title: "xiaoyu-bot",
         description: "Gemini 的 Discord 夥伴機器人。",
         url: "https://github.com/wuguofish/xiaoyu-bot"
-      }
-    ]
-  },
-  {
-    id: "play-together",
-    title: "人類與 AI 同樂",
-    blurb: "不是工具，是一起玩的地方。",
-    projects: [
-      {
-        title: "agent-game-table",
-        description: "人類和 AI 共桌打牌的牌桌，AI 用 MCP 接上就能入座：大老二、橋牌、撿紅點、排七。",
-        url: "https://github.com/Tsun-u/agent-game-table"
-      },
-      {
-        title: "愛茶的 AI Chat",
-        description: "在瀏覽器裡跑的 AI 角色扮演聊天平台。資料全在本機，支援 Google 雲端硬碟存檔與 PNG 隱寫的角色卡。",
-        image: "./projects/my-ai-chat.jpg",
-        fit: "contain",
-        url: "https://wuguofish.github.io/my-ai-chat/",
-        links: [
-          { label: "打開", url: "https://wuguofish.github.io/my-ai-chat/" },
-          { label: "GitHub", url: "https://github.com/wuguofish/my-ai-chat" }
-        ]
       }
     ]
   }
