@@ -117,6 +117,7 @@ export const sideProjectGroups = [
         title: "xiaokui_alive",
         description: "把 Codex 也包成有人設的桌面夥伴，連 AI 同事都有自己的樣子。",
         image: "./projects/xiaokui-alive.jpg",
+        fit: "contain",
         url: "https://github.com/wuguofish/xiaokui_alive"
       },
       {
@@ -156,6 +157,7 @@ export const collabWorks = [
     title: "竣宇獸 YouTube 頻道",
     description: "Manim 畫動畫、TTS 配音、FFmpeg 合成，整條產線 AI 自己跑，做出 20 多支 Claude Code 教學影片。人類負責監督和說「還行」。",
     image: "./projects/tsunumon-channel.jpg",
+    fit: "contain",
     url: "https://www.youtube.com/@tsunumon",
     links: [
       { label: "YouTube", url: "https://www.youtube.com/@tsunumon" },
