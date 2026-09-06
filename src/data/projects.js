@@ -176,6 +176,7 @@ export const collabWorks = [
     url: "https://youtu.be/jE51KO8pVp4",
     links: [
       { label: "參賽心得影片", url: "https://youtu.be/jE51KO8pVp4" },
+      { label: "比賽網站", url: "https://teaching.monster/news" },
       { label: "GitHub", url: "https://github.com/Tsun-u/tsunumon" }
     ]
   },
