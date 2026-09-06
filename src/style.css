@@ -1,20 +1,20 @@
 @import "tailwindcss";
 @import "@vp-tw/cjk-web-fonts-taipei-sans-tc/dist/Regular/Taipei-Sans-TC.css";
 
-/* 薄荷巧克力配色：淺色是香草底＋可可墨，深色把紙換成巧克力、墨換成奶油 */
+/* 薄荷巧克力配色：文字走可可色系、色塊走薄荷綠；淺色底是香草、深色底是巧克力 */
 :root {
   --paper: #FBF7EE;
   --paper-2: #F3ECDC;
-  --ink: #26211B;
-  --ink-2: #6A6157;
+  --ink: #3A2A22;
+  --ink-2: #7A6457;
   --line: #E0D6C3;
   --choco: #4A2C24;
-  --on-choco: #F6EFE3;
-  --mint: #1F7A63;
+  --mint: #2F8F73;
+  --on-mint: #FBF7EE;
   --berry: #E0567B;
-  --bar: #4A2C24;
+  --bar: #237A62;
   --on-bar: #F6EFE3;
-  --on-bar-muted: #C9B7A6;
+  --on-bar-muted: #C8E6DA;
   color-scheme: light;
 }
 
@@ -22,16 +22,16 @@
   :root {
     --paper: #1E1A15;
     --paper-2: #29231C;
-    --ink: #F0EAE0;
-    --ink-2: #B0A597;
+    --ink: #F0E6D8;
+    --ink-2: #B8A797;
     --line: #3E352B;
     --choco: #D9B39C;
-    --on-choco: #1E1A15;
-    --mint: #7FD9BD;
+    --mint: #2E8C74;
+    --on-mint: #F4FBF7;
     --berry: #F08AA5;
-    --bar: #15120E;
-    --on-bar: #F0EAE0;
-    --on-bar-muted: #9C8F80;
+    --bar: #163F35;
+    --on-bar: #E8F3EE;
+    --on-bar-muted: #9BC4B5;
     color-scheme: dark;
   }
 }
@@ -43,8 +43,8 @@
   --color-ink-2: var(--ink-2);
   --color-line: var(--line);
   --color-choco: var(--choco);
-  --color-on-choco: var(--on-choco);
   --color-mint: var(--mint);
+  --color-on-mint: var(--on-mint);
   --color-berry: var(--berry);
   --color-bar: var(--bar);
   --color-on-bar: var(--on-bar);

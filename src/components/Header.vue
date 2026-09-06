@@ -6,7 +6,7 @@
             <div class="flex justify-between items-start gap-6 max-sm:flex-col">
                 <div>
                     <h1 class="text-3xl font-bold flex">
-                        <a :href="homeHref" class="hover:text-mint">&gt; 寂寞的人坐著與AI聊天</a>
+                        <a :href="homeHref" class="hover:underline underline-offset-4">&gt; 寂寞的人坐著與AI聊天</a>
                         <span class="cursor-blink">&nbsp;_</span>
                     </h1>
                     <p v-if="subtitle" class="mt-2 text-on-bar-muted text-lg">{{ subtitle }}</p>
@@ -17,7 +17,7 @@
                 <nav>
                     <ul class="flex flex-wrap gap-x-5 gap-y-2 text-lg">
                         <li v-for="item in nav" :key="item.href">
-                            <a :href="item.href" class="hover:text-mint">{{ item.label }}</a>
+                            <a :href="item.href" class="hover:underline underline-offset-4">{{ item.label }}</a>
                         </li>
                     </ul>
                 </nav>

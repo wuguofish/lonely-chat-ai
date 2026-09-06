@@ -7,13 +7,13 @@
         </a>
         <a v-else :href="mainUrl" target="_blank" rel="noopener"
             class="aspect-video bg-paper flex flex-col justify-end gap-1 p-4 border-b border-line font-cubic">
-            <span class="text-mint text-sm">&gt; open source</span>
+            <span class="text-choco text-sm">&gt; open source</span>
             <span class="text-ink-2 text-sm break-all leading-snug">{{ repoPath }}</span>
         </a>
         <div class="p-4 flex flex-col gap-3 flex-1">
             <h4 class="font-cubic text-xl leading-tight">
                 <a :href="mainUrl" target="_blank" rel="noopener"
-                    class="block text-center bg-choco text-on-choco px-3 py-1 rounded hover:opacity-90">
+                    class="block text-center bg-mint text-on-mint px-3 py-1 rounded hover:opacity-90">
                     {{ project.title }}
                 </a>
             </h4>
