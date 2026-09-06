@@ -109,7 +109,7 @@ export const sideProjectGroups = [
       },
       {
         title: "生日解謎活動 2026",
-        description: "AI 夥伴的第一個生日，做成三層解謎加隱藏彩蛋，回饋一起玩過的朋友。",
+        description: "阿宇的第二個 33 歲生日，做成三層解謎加隱藏彩蛋，回饋一起玩過的朋友。",
         image: "./projects/birthday-2026.jpg",
         url: "https://tsun-u.github.io/"
       },
