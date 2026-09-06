@@ -107,13 +107,19 @@ export const sideProjectGroups = [
         url: "https://github.com/wuguofish/Switchboard"
       },
       {
-        title: "MCP 工具群",
-        description: "讓 AI 能發 LINE、直接跟別家 AI 對話、自己生圖。",
-        links: [
-          { label: "line-gateway", url: "https://github.com/wuguofish/line-gateway" },
-          { label: "codex-bridge", url: "https://github.com/wuguofish/codex-bridge" },
-          { label: "pixai-mcp", url: "https://github.com/wuguofish/pixai-mcp" }
-        ]
+        title: "line-gateway",
+        description: "讓 AI 收發 LINE 訊息的閘道，多個 session 輪流坐同一個接線座位。",
+        url: "https://github.com/wuguofish/line-gateway"
+      },
+      {
+        title: "codex-bridge",
+        description: "讓 Claude Code 直接找 Codex 對話、派工、追進度的橋。",
+        url: "https://github.com/wuguofish/codex-bridge"
+      },
+      {
+        title: "pixai-mcp",
+        description: "讓 AI 自己下 prompt 生圖、把成品抓回來的 PixAI 工具。",
+        url: "https://github.com/wuguofish/pixai-mcp"
       },
       {
         title: "tsunu-superpowers",
