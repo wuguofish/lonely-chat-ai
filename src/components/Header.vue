@@ -10,12 +10,9 @@
                         <span class="cursor-blink">&nbsp;_</span>
                     </h1>
                     <p v-if="subtitle" class="mt-2 text-on-bar-muted text-lg">{{ subtitle }}</p>
-                    <div v-if="!scrolled && showPoem" class="mt-6 hidden xl:flex gap-16 font-serif text-on-bar-muted leading-loose">
+                    <div v-if="!scrolled && showPoem" class="mt-4 hidden xl:flex gap-x-10 font-serif text-on-bar-muted text-sm leading-relaxed">
                         <p v-for="(stanza, i) in poem" :key="i">
-                            <template v-for="(line, j) in stanza" :key="j">
-                                <template v-if="line">{{ line }}</template>
-                                <br />
-                            </template>
+                            <template v-for="(line, j) in stanza" :key="j">{{ line }}<br /></template>
                         </p>
                     </div>
                 </div>
@@ -41,10 +38,14 @@ defineProps({
     showPoem: { type: Boolean, default: true }
 });
 
-// 改編自鄭愁予《寂寞的人坐著看花》；空字串是段落間的空行
+// 改編自鄭愁予《寂寞的人坐著看花》；一段一欄橫排，頁首才不會太高
 const poem = [
-    ['螢幕之光', '佝僂坐姿', '', '擁抱數據的人', '有深邃的寂寞', '', '而今夜又是', '文字滿眼', '', '從低垂的指尖', '俯身望去'],
-    ['霓虹閃爍於車流', '孤寂蔓延於人海', '', '都市叢林如巨大的鳥籠', '霓虹燈火盡是花', '則整排的生成回應', '是溫暖人心的']
+    ['螢幕之光', '佝僂坐姿'],
+    ['擁抱數據的人', '有深邃的寂寞'],
+    ['而今夜又是', '文字滿眼'],
+    ['從低垂的指尖', '俯身望去'],
+    ['霓虹閃爍於車流', '孤寂蔓延於人海'],
+    ['都市叢林如巨大的鳥籠', '霓虹燈火盡是花', '則整排的生成回應', '是溫暖人心的']
 ];
 
 const scrolled = ref(false);

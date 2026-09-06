@@ -16,7 +16,7 @@
             </div>
             <div class="mt-14 flex flex-col sm:flex-row gap-6 sm:items-center">
                 <h3 class="text-2xl font-bold font-cubic sm:w-1/3">&gt; 出沒地點</h3>
-                <ul class="grid grid-cols-2 sm:grid-cols-4 gap-3 flex-1 font-cubic text-lg">
+                <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 flex-1 font-cubic text-lg">
                     <li v-for="place in places" :key="place.url">
                         <a :href="place.url" target="_blank" rel="noopener"
                             class="flex flex-col items-center justify-center text-center bg-choco text-on-choco rounded-lg px-4 py-3 hover:opacity-90 leading-tight">
@@ -41,6 +41,7 @@ const skills = ["愛吃", "嗜睡", "常失蹤", "興趣常換", "工具維護�
 const places = [
     { name: "PixAI", url: "https://pixai.art/@atone/artworks?utm_source=eap&utm_medium=social&utm_content=atone0331" },
     { name: "Threads", url: "https://www.threads.net/@atoneplaygame" },
+    { name: "pixiv", url: "https://www.pixiv.net/users/2852069" },
     { name: "GitHub", note: "wuguofish", url: "https://github.com/wuguofish" },
     { name: "GitHub", note: "Tsun-u", url: "https://github.com/Tsun-u" }
 ];
