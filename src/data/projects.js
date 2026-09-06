@@ -79,6 +79,7 @@ export const sideProjectGroups = [
       {
         title: "agent-game-table",
         description: "人類和 AI 共桌打牌的牌桌，AI 用 MCP 接上就能入座：大老二、橋牌、撿紅點、排七。",
+        image: "./projects/agent-game-table.png",
         url: "https://github.com/Tsun-u/agent-game-table"
       },
       {
