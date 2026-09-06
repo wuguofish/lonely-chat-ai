@@ -1,20 +1,21 @@
 @import "tailwindcss";
 @import "@vp-tw/cjk-web-fonts-taipei-sans-tc/dist/Regular/Taipei-Sans-TC.css";
 
-/* 薄荷巧克力配色：文字走可可色系、色塊走薄荷綠；淺色底是香草、深色底是巧克力 */
+/* 淺色是「巧克力薄荷」：香草紙、可可色塊、薄荷點綴；深色是「薄荷巧克力」：巧克力紙、薄荷色塊、奶油字 */
 :root {
   --paper: #FBF7EE;
   --paper-2: #F3ECDC;
-  --ink: #3A2A22;
-  --ink-2: #7A6457;
+  --ink: #26211B;
+  --ink-2: #6A6157;
   --line: #E0D6C3;
-  --choco: #4A2C24;
-  --mint: #2F8F73;
-  --on-mint: #FBF7EE;
+  --block: #4A2C24;
+  --on-block: #F6EFE3;
+  --accent: #1F7A63;
+  --mint: #1F7A63;
   --berry: #E0567B;
-  --bar: #237A62;
+  --bar: #4A2C24;
   --on-bar: #F6EFE3;
-  --on-bar-muted: #C8E6DA;
+  --on-bar-muted: #C9B7A6;
   color-scheme: light;
 }
 
@@ -25,9 +26,10 @@
     --ink: #F0E6D8;
     --ink-2: #B8A797;
     --line: #3E352B;
-    --choco: #D9B39C;
-    --mint: #2E8C74;
-    --on-mint: #F4FBF7;
+    --block: #2E8C74;
+    --on-block: #F4FBF7;
+    --accent: #D9B39C;
+    --mint: #7FD9BD;
     --berry: #F08AA5;
     --bar: #163F35;
     --on-bar: #E8F3EE;
@@ -42,9 +44,10 @@
   --color-ink: var(--ink);
   --color-ink-2: var(--ink-2);
   --color-line: var(--line);
-  --color-choco: var(--choco);
+  --color-block: var(--block);
+  --color-on-block: var(--on-block);
+  --color-accent: var(--accent);
   --color-mint: var(--mint);
-  --color-on-mint: var(--on-mint);
   --color-berry: var(--berry);
   --color-bar: var(--bar);
   --color-on-bar: var(--on-bar);

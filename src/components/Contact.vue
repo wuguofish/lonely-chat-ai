@@ -23,7 +23,7 @@
                 <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 flex-1 font-cubic text-lg">
                     <li v-for="place in places" :key="place.url">
                         <a :href="place.url" target="_blank" rel="noopener"
-                            class="flex h-full flex-col items-center justify-center gap-1 text-center bg-mint text-on-mint rounded-lg px-4 py-3 hover:opacity-90 leading-tight">
+                            class="flex h-full flex-col items-center justify-center gap-1 text-center bg-block text-on-block rounded-lg px-4 py-3 hover:opacity-90 leading-tight">
                             <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current" aria-hidden="true">
                                 <path :d="icons[place.icon]" />
                             </svg>
