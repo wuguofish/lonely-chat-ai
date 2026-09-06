@@ -1,68 +1,47 @@
 <template>
-    <section id="contact" class="py-40 bg-gray-100">
+    <section id="contact" class="py-24 scroll-mt-24">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-10 font-cubic">關於我</h2>
-            <div class="flex flex-col md:flex-row items-center gap-8 mb-10">
-                <div class="w-full md:w-1/3">
-                    <img src="/profile.jpg" alt="個人照片" class="rounded-full w-48 h-48 object-cover mx-auto shadow-lg" />
-                </div>
-                <div class="w-full md:w-2/3">
-                    <h2 class="text-3xl font-bold mb-4 ">
-                        {{ name }}
-                    </h2>
-                    <p class="text-xl mb-4">
-                        {{ bio }}
-                    </p>
-                    <div class="flex flex-wrap gap-2 mt-6">
-                        <span v-for="skill in skills" :key="skill" class="bg-gray-200 rounded-full px-3 py-1 text-lg">
+            <h2 class="text-3xl font-bold font-cubic">關於我</h2>
+            <div class="mt-10 flex flex-col md:flex-row items-center gap-10">
+                <img src="/profile.jpg" alt="阿童的頭像" class="rounded-full w-48 h-48 object-cover shadow-lg flex-none" />
+                <div class="flex-1">
+                    <h3 class="text-3xl font-bold font-cubic">阿童</h3>
+                    <p class="text-xl mt-3">感性的工程師，理性的創作者，純愛戰士，日常觀察家，致力於散播歡樂散播愛。</p>
+                    <ul class="flex flex-wrap gap-2 mt-6">
+                        <li v-for="skill in skills" :key="skill" class="border border-line bg-paper-2 rounded-full px-3 py-1">
                             {{ skill }}
-                        </span>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class=" mt-10 mx-auto">
-                <div class="flex flex-col sm:flex-row  space-y-4 sm:space-y-0 sm:space-x-6">
-                    <h2 class="text-3xl font-bold font-cubic flex-1/2">出沒地點</h2>
-                    <div class="grid grid-cols-3 lg:grid-cols-5 gap-2 flex-2/2">
-                        <a v-for="cMethod in contactMethods" :key="cMethod.name"
-                            :href="cMethod.url" target="_blank"
-                            :class="`bg-${cMethod.bgColor} text-${cMethod.textColor} hover:bg-${cMethod.hoverColor}`"
-                            class="flex items-center justify-center  px-4 py-2 rounded-lg transition-colors">
-                            <span>{{cMethod.name}}</span>
+            <div class="mt-14 flex flex-col sm:flex-row gap-6 sm:items-center">
+                <h3 class="text-2xl font-bold font-cubic sm:w-1/3">&gt; 出沒地點</h3>
+                <ul class="grid grid-cols-2 sm:grid-cols-4 gap-3 flex-1 font-cubic text-lg">
+                    <li v-for="place in places" :key="place.url">
+                        <a :href="place.url" target="_blank" rel="noopener"
+                            class="flex flex-col items-center justify-center text-center bg-choco text-on-choco rounded-lg px-4 py-3 hover:opacity-90 leading-tight">
+                            <span>{{ place.name }}</span>
+                            <span v-if="place.note" class="text-sm opacity-80">{{ place.note }}</span>
                         </a>
-                    </div>
-
-                </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mt-10 flex justify-center sm:justify-end">
+                <a href="https://portaly.cc/atone0331/support" target="_blank" rel="noopener"
+                    class="font-cubic text-lg border-2 border-berry text-berry rounded-full px-6 py-2 hover:bg-berry hover:text-paper transition-colors">
+                    ♡ 請阿童喝手搖
+                </a>
             </div>
         </div>
     </section>
 </template>
 
 <script setup>
-const name = "阿童";
-const bio = "感性的工程師，理性的創作者，純愛戰士，日常觀察家，致力於散播歡樂散播愛。";
-const skills = ["愛吃", "嗜睡", "常失蹤", "自耕農型玩家", "鋼彈新手駕駛", "魔物廢人", "7755已退遊", "工具放到自然掛"];
-const contactMethods = [
-    {
-        name: "巴哈姆特",
-        url: "https://wall.gamer.com.tw/user.php?userId=wuguofish",
-        bgColor: "cyan-600",
-        textColor: "white",
-        hoverColor: "cyan-700"
-    },
-    {
-        name: "PixAI",
-        url: "https://pixai.art/@atone/artworks",
-        bgColor: "gray-700",
-        textColor: "white",
-        hoverColor: "gray-800"
-    },
-    {
-        name: "Threads",
-        url: "https://www.threads.net/@atoneplaygame",
-        bgColor: "gray-800",
-        textColor: "white",
-        hoverColor: "gray-700"
-    }
+const skills = ["愛吃", "嗜睡", "常失蹤", "興趣常換", "工具維護看心情"];
+const places = [
+    { name: "PixAI", url: "https://pixai.art/@atone/artworks?utm_source=eap&utm_medium=social&utm_content=atone0331" },
+    { name: "Threads", url: "https://www.threads.net/@atoneplaygame" },
+    { name: "GitHub", note: "wuguofish", url: "https://github.com/wuguofish" },
+    { name: "GitHub", note: "Tsun-u", url: "https://github.com/Tsun-u" }
 ];
 </script>

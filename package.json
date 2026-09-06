@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
+    "@vp-tw/cjk-web-fonts-taipei-sans-tc": "^0.0.1",
     "vue": "^3.5.13"
   },
   "overrides": {

@@ -1,30 +1,100 @@
 @import "tailwindcss";
-@source inline("{hover:,}bg-{slate,gray,zinc,neutral,stone,red,orange,amber,yellow,lime,green,emerald,teal,cyan,sky,blue,indigo,violet,purple,fuchsia,pink,rose}-{50,{100..900..100},950}");
+@import "@vp-tw/cjk-web-fonts-taipei-sans-tc/dist/Regular/Taipei-Sans-TC.css";
 
-
-@theme {
-  --color-primary: oklch(0.72 0.11 178);
-  --color-transparent-gray: rgba(0, 0, 0, 0.5);
-  --color-transparent-gray-light: rgba(0, 0, 0, 0.2);
-  --color-transparent-gray-dark: rgba(0, 0, 0, 0.9);
-  
+/* 薄荷巧克力配色：淺色是香草底＋可可墨，深色把紙換成巧克力、墨換成奶油 */
+:root {
+  --paper: #FBF7EE;
+  --paper-2: #F3ECDC;
+  --ink: #26211B;
+  --ink-2: #6A6157;
+  --line: #E0D6C3;
+  --choco: #4A2C24;
+  --on-choco: #F6EFE3;
+  --mint: #1F7A63;
+  --berry: #E0567B;
+  --bar: #4A2C24;
+  --on-bar: #F6EFE3;
+  --on-bar-muted: #C9B7A6;
+  color-scheme: light;
 }
 
-/* 註冊俐方體 - 使用多種格式 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #1E1A15;
+    --paper-2: #29231C;
+    --ink: #F0EAE0;
+    --ink-2: #B0A597;
+    --line: #3E352B;
+    --choco: #D9B39C;
+    --on-choco: #1E1A15;
+    --mint: #7FD9BD;
+    --berry: #F08AA5;
+    --bar: #15120E;
+    --on-bar: #F0EAE0;
+    --on-bar-muted: #9C8F80;
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-line: var(--line);
+  --color-choco: var(--choco);
+  --color-on-choco: var(--on-choco);
+  --color-mint: var(--mint);
+  --color-berry: var(--berry);
+  --color-bar: var(--bar);
+  --color-on-bar: var(--on-bar);
+  --color-on-bar-muted: var(--on-bar-muted);
+
+  --font-cubic: "Cubic11", "Taipei Sans TC", sans-serif;
+  --font-sans: "Taipei Sans TC", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  --font-serif: "Iansui", "Noto Serif TC", serif;
+}
+
 @font-face {
-  font-family: 'Cubic11';
-  src: url('./assets/fonts/Cubic_11.woff2') format('woff2'),
-    url('./assets/fonts/Cubic_11.woff') format('woff'),
-    url('./assets/fonts/Cubic_11.ttf') format('truetype');
+  font-family: "Cubic11";
+  src: url("./assets/fonts/Cubic_11.woff2") format("woff2"),
+    url("./assets/fonts/Cubic_11.woff") format("woff"),
+    url("./assets/fonts/Cubic_11.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-.font-cubic {
-  font-family: 'Cubic11', sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
-.animate-pulse {
-  animation: pulse 1s infinite;
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  line-height: 1.75;
+}
+
+.font-cubic {
+  font-family: var(--font-cubic);
+}
+
+.cursor-blink {
+  animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .cursor-blink {
+    animation: none;
+  }
 }
