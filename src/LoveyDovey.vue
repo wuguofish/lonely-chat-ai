@@ -5,6 +5,9 @@
       <section class="py-24">
         <div class="container mx-auto px-4">
           <h2 class="text-3xl font-bold font-cubic">卿卿我我相關</h2>
+          <p class="mt-4 inline-block rounded-lg border border-dashed border-ink-2 px-4 py-2 text-ink-2">
+            這一區已封存，不再更新。裡面的工具和連結照當時的樣子留著，可能已經失效。
+          </p>
           <p class="mt-3 text-ink-2 text-lg max-w-3xl">
             《卿卿我我》是我接觸生成式 AI 應用的契機之一。這裡留著那段時間做的工具和企劃，過時的已經下架，現在只在朋友出新角色時幫忙測角。
           </p>

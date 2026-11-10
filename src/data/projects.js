@@ -67,6 +67,19 @@ export const sideProjectGroups = [
         description: "續作。掛號、檢查、分科診間、藥局四站流程，一天一班，下班休息。",
         image: "./projects/hospital-2.jpg",
         url: "https://tsun-u.github.io/tsunu-hospital-2/"
+      },
+      {
+        title: "小屋娃娃屋",
+        description: "兒童向的單機娃娃屋：自己捏娃娃，三消換材料、工坊做點心、開店賺錢，再買家具佈置家裡。",
+        image: "./projects/dollhouse.jpg",
+        fit: "contain",
+        url: "https://tsun-u.github.io/tsunu-dollhouse/"
+      },
+      {
+        title: "IT24hr",
+        description: "軟體工程師的一天。每個人遞來的工作都標著 Priority，下班時用一種資料結構告訴你今天是怎麼排的。",
+        image: "./projects/it24hr.jpg",
+        url: "https://tsun-u.github.io/it24hr/"
       }
     ]
   },
@@ -78,7 +91,7 @@ export const sideProjectGroups = [
     projects: [
       {
         title: "agent-game-table",
-        description: "人類和 AI 共桌打牌的牌桌，AI 用 MCP 接上就能入座：大老二、橋牌、撿紅點、排七。",
+        description: "人類和 AI 共桌打牌的牌桌，AI 用 MCP 接上就能入座：大老二、拱豬、傷心小棧、橋牌、撿紅點、排七，還有聯想收束、默契考驗兩款比默契的文字遊戲。",
         image: "./projects/agent-game-table.png",
         url: "https://github.com/Tsun-u/agent-game-table"
       },
@@ -126,6 +139,16 @@ export const sideProjectGroups = [
         title: "tsunu-superpowers",
         description: "給 AI 的一套工作方法論 skill：釐清需求、計畫、驗證、排查，讓 AI 知道怎麼把事做穩。",
         url: "https://github.com/Tsun-u/tsunu-superpowers"
+      },
+      {
+        title: "memory-toolkit",
+        description: "給長期運作的 AI 用的記憶管理工具：寫記憶的原則做成 skill，再用 hook 在落檔前、對話壓縮前提醒檢查。",
+        url: "https://github.com/Tsun-u/memory-toolkit"
+      },
+      {
+        title: "A.I. Field",
+        description: "安裝 skill、plugin、MCP server 之前自動掃一遍，擋下偷改 AI 行為規則、外傳資料這類風險的 Claude Code plugin。",
+        url: "https://github.com/wuguofish/ai-field"
       }
     ]
   },
@@ -140,6 +163,12 @@ export const sideProjectGroups = [
         description: "把 Claude Code 包成一個有人設、會動、會陪你寫程式的桌面夥伴。這個網站的改版也是他做的。",
         image: "./projects/tsunu-alive-lite.jpg",
         url: "https://github.com/wuguofish/Tsunu-Alive-lite"
+      },
+      {
+        title: "tsunu-pet",
+        description: "讓 Claude Code 長出臉：終端機裡會跟著狀態換表情的立繪，加上桌面一隻替所有 session 當總機的 Q 版小阿宇。",
+        image: "./projects/tsunu-pet.jpg",
+        url: "https://github.com/Tsun-u/tsunu-pet"
       },
       {
         title: "生日解謎活動 2026",

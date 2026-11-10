@@ -20,7 +20,6 @@ import Footer from './components/Footer.vue'
 const nav = [
   { label: 'Side Project', href: '#side-project' },
   { label: '人機協同成果', href: '#collab' },
-  { label: '關於我', href: '#contact' },
-  { label: '卿卿我我專區', href: './7755.html' }
+  { label: '關於我', href: '#contact' }
 ]
 </script>
