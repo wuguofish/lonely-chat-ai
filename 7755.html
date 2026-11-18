@@ -2,16 +2,62 @@
 <html lang="zh-Hant-TW">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <link rel="icon" type="image/svg+xml" href="./logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="卿卿我我時期做的工具與企劃，生成式 AI 剛問世時的碰撞紀錄。" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Iansui&display=swap" />
+    <link rel="stylesheet" href="./style.css" />
     <title>卿卿我我專區 — 寂寞的人坐著與AI聊天</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/loveydovey.js"></script>
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__row">
+          <div>
+            <h1 class="site-title">
+              <a href="./">&gt; 寂寞的人坐著與AI聊天</a>
+              <span class="cursor-blink">&nbsp;_</span>
+            </h1>
+            <p class="site-subtitle">卿卿我我專區</p>
+          </div>
+          <nav class="site-nav">
+            <ul>
+              <li><a href="./">回首頁</a></li>
+              <li><a href="./#side-project">Side Project</a></li>
+              <li><a href="./#collab">人機協同成果</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">卿卿我我相關</h2>
+          <p class="archive-notice">這一區已封存，不再更新。裡面的工具和連結照當時的樣子留著，可能已經失效。</p>
+          <p class="section__lead section__lead--narrow">
+            《卿卿我我》是我接觸生成式 AI 應用的契機之一。<br />
+            退坑已久，這裡留著那段時間做的工具和企劃，皆不再維護。
+          </p>
+          <div id="loveydovey-cards" class="card-grid card-grid--wide"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="site-footer__owner">&copy; <span id="copyright-year"></span> 阿童</p>
+        <p>手寫 HTML、CSS、JavaScript，沒有用框架</p>
+        <p class="site-footer__credit">網站名稱與頁首短詩改編自　鄭愁予《寂寞的人坐著看花》</p>
+        <p>字體：俐方體 11 號、台北黑體、芫荽</p>
+      </div>
+    </footer>
+
+    <script src="./projects.js"></script>
+    <script src="./render.js"></script>
+    <script src="./site.js"></script>
   </body>
 </html>

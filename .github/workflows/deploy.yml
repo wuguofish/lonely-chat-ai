@@ -4,30 +4,24 @@ on:
   push:
     branches: [ main ]  # 當推送到 main 分支時觸發
 
-# 添加權限設置
 permissions:
-  contents: write # 允許寫入內容
+  contents: write # 部署要寫入 gh-pages 分支
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: 設定 Node.js 環境
-        uses: actions/setup-node@v3
-        with:
-          node-version: '23' # 設定 Node.js 版本
-          cache: 'npm' # 啟用 npm 快取
-
-      - name: 安裝與構建 🔧
+      # 網站是純靜態檔，沒有建置步驟；只挑出要上線的檔案
+      - name: 整理要上線的檔案
         run: |
-          npm ci
-          npm run build
+          mkdir _site
+          rsync -a --exclude .git --exclude .github --exclude README.md --exclude _site ./ _site/
 
       - name: 部署 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist # 建構輸出目錄
+          folder: _site # 要上線的資料夾
           branch: gh-pages # 部署到哪個分支
